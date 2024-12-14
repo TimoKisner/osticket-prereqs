@@ -47,7 +47,7 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 
 
 
-<h2>Installation - Schritt für Schritt</h2>
+<h1>Installation - Schritt für Schritt</h1>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
