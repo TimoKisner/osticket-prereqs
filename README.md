@@ -32,8 +32,9 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 
 <h2>Installation - Inhaltsangabe</h2>
-Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von osTicket benötigten Komponenten, sowie die Installation von osTicket selbst. Folglich sind die folgenden Abschnitte nach den jeweiligen Komponenten gegliedert.
-[Hinweis: "Vorbereitungen (Virtuelle Maschine)" nicht obligatorisch]
+Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von osTicket benötigten Komponenten, sowie die Installation von osTicket selbst. Folglich sind die Abschnitte nach den jeweiligen Komponenten gegliedert.
+<br />
+<br />
 
 - Vorbereitungen (Virtuelle Maschine)
 - Installation IIS
@@ -41,6 +42,8 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 - Installation + Einrichtung MySQL
 - Einrichtung osTicket
 - Korrekturen (WICHTIG!!)
+
+[Hinweis: "Vorbereitungen (Virtuelle Maschine)" nicht obligatorisch]
 
 
 
