@@ -36,7 +36,7 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 <br />
 <br />
 
-- Vorbereitungen (Virtuelle Maschine)
+- Vorbereitungen
 - Installation IIS
 - Installation PHP
 - Installation + Einrichtung MySQL
@@ -49,15 +49,10 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 
 
 <h1>Installation - Schritt für Schritt</h1>
-❗❗Vorbemerkung: Folgender Link führt sie zum Download eines Ordner namens "osTicket-Installation-Files.zip", welcher alles beinhaltet was
-<br />
-❗❗im Zuge der Anleitung verwendet wird. Befolgung der Aleitung ohne nicht möglich.
-<br />
-___hier:osTicket-Installation-Files.zip___
 <br />
 
 
-<h2>101</h2>
+<h2>Vorbereitungen</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -69,7 +64,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>IIS</h2>
+<h2>Installation IIS</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -81,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>PHP</h2>
+<h2>Installation PHP</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -93,7 +88,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>Batenbank</h2>
+<h2>Installation + Einrichtung MySQL</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -105,7 +100,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>osTicket</h2>
+<h2>Einrichtung osTicket</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -117,7 +112,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>clean up</h2>
+<h2>Korrekturen</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
