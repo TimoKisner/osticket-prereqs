@@ -17,11 +17,11 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 <h2>Liste der Voraussetzungen</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Microsoft Azure
+- osTicket-Installation-Files.zip
+- Internet Information Services (IIS)
+- Hypertext Preprocessor (PHP)
+- HeidiSQL (MySQL Datenbank)
 
 <h2>Installation - Schritt für Schritt</h2>
 
