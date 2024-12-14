@@ -23,6 +23,13 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 - Hypertext Preprocessor (PHP)
 - HeidiSQL (MySQL Datenbank)
 
+<h2>Installation - Inhaltsangabe</h2>
+- 101
+- IIS
+- PHP
+- Database
+- osTicket
+
 <h2>Installation - Schritt für Schritt</h2>
 
 <p>
