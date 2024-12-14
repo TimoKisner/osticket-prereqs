@@ -38,6 +38,7 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 - Installation PHP
 - Installation + Einrichtung MySQL
 - Einrichtung osTicket
+- Korrekturen (WICHTIG!!)
 
 
 
