@@ -43,8 +43,6 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 - Einrichtung osTicket
 - Korrekturen (WICHTIG!!)
 
-<br />
-
 
 
 <h1>Installation - Schritt für Schritt</h1>
