@@ -39,11 +39,10 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 - Vorbereitungen
 - Installation IIS
 - Installation PHP
-- Installation + Einrichtung MySQL
+- Installation MySQL
 - Einrichtung osTicket
 - Korrekturen (WICHTIG!!)
 
-[Hinweis: "Vorbereitungen (Virtuelle Maschine)" nicht obligatorisch]
 <br />
 
 
@@ -88,7 +87,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 
-<h2>Installation + Einrichtung MySQL</h2>
+<h2>Installation MySQL</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
