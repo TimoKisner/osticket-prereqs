@@ -5,15 +5,21 @@
 <h1>osTicket – Voraussetzungen und Installation</h1>
 Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Source-Helpdesk-Ticketingsystems osTicket.<br />
 
+
+
 <h2>Verwendete Technologien und Umgebungen</h2>
 
 - Microsoft Azure (Virtuelle Maschinen)
 - Remote Desktop
 - Internet Information Services (IIS)
 
+
+
 <h2>Verwendete Betriebssysteme</h2>
 
 - Windows 10</b> (21H2)
+
+
 
 <h2>Liste der Voraussetzungen</h2>
 
@@ -23,12 +29,17 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 - Hypertext Preprocessor (PHP)
 - HeidiSQL (MySQL Datenbank)
 
+
+
 <h2>Installation - Inhaltsangabe</h2>
+
 - 101
 - IIS
 - PHP
 - Database
 - osTicket
+
+
 
 <h2>Installation - Schritt für Schritt</h2>
 
