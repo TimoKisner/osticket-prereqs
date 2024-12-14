@@ -65,8 +65,7 @@ Im Anschluss erstellen wir eine Virtuelle Maschine (/Virtuellen Computer).
 <img src="https://i.imgur.com/jdP4nYk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<br />
-
+<hr>
 Hierbei musst du auf folgende Dinge Acht geben. Alle folgenden Einstellungen befinden sich auf der ersten Seite, den "Grundeinstellungen":
   
 - das Verwenden der zuvor erstellten Ressourcengruppe
@@ -96,7 +95,7 @@ Hierbei musst du auf folgende Dinge Acht geben. Alle folgenden Einstellungen bef
 <p>
 <img src="https://i.imgur.com/jubHI6s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
+<hr>
 <p>
 ___remote desktop + osticke-Inst-Files.zip___
 </p>
