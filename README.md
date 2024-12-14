@@ -33,11 +33,11 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 <h2>Installation - Inhaltsangabe</h2>
 
-- 101
-- IIS
-- PHP
-- Database
-- osTicket
+- Vorbereitungen (Virtuelle Maschine)
+- Installation IIS
+- Installation PHP
+- Installation + Einrichtung MySQL
+- Einrichtung osTicket
 
 
 
