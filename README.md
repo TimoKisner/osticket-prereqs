@@ -171,62 +171,59 @@ Was ist PHP und wofür brauchen wir es?...asdfasdfasdfgasdfga..../.
 Als erstes erstellen wir einen Ordner namens "PHP" auf unserem lokalen Datenträger. Der Pfad ist folgender: "Dieser PC"-->"Lokaler Datenträger(C:)".
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/eQRc4O2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 Daraufhin öffnen wir den osTicket-Installation-Files Ordner und installieren alles was PHP benötigt um flussig innerhalb des IIS zu operieren. Anfangen tun wir mit "VC_redist.x86". Bei VC_redist handelt es sich um ...adfasdfsadfgsafdgd...().
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6t1JdFr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 Jetzt kommt die Datei "PHPManagerForIIS_V1.5.0". Wie es im Namen schon steckt repräsentiert diese Datei den PHP Manager. Dieser ist zuständig für: fnvjbdsjfbvdsjfnvjsdfnbvjodsfb......(). 
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7KIrWzj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 Jetzt zur letzten, für PHP relevanten, Datei innerhalb des Installations-Ordners. Die Rede ist von "php-7.3.8-nts-Win32-VC15-x86". Darin befindet sich: najnbvufadsbzuiabfdenfjdsbvuasbfvgujasfvnfdaioa...(). Wir extrahieren den Ordner in unseren zuvor erstellten "PHP" Ordner (s. Beginn Installation PHP)
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/JmCwQke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/6VWz9GH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <hr>
 
 <p>
-Fast geschafft! Für die letzten zwei Schritte müssen wir in IIS gehen und unsere PHP Version, die wir zuvor in den Ordner "PHP" extrahiert haben, registrieren. Sonst kann das IIS keinen Gebrauch davon machen wenn wir später osTicket installieren und einrichten wollen. Hiezu öffnen Sie IIS und müssten direkt ein Icon mit der Schrift "PHP Manager" dadrunter finden. Das klicken Sie an mit einem Doppleklick, damit sich das Fenster des PHP Managers öffnet. Jetzt klicken sie auf "Register new PHP version" und geben als Pfad den Weg zu unserem PHP Ordner ("This PC">"Windows(C:)">"PHP">) und wählen die Datei "php-cgi". Diese ist dnvjsdfbvjdsbfvujdbafjugb....(). Anschließend auf "OK" drücken. So sollte das ganze dann ausschauen: 
+Fast geschafft! Für die letzten zwei Schritte müssen wir in IIS gehen und unsere PHP Version, die wir zuvor in den Ordner "PHP" extrahiert haben, registrieren. Sonst kann das IIS keinen Gebrauch davon machen wenn wir später osTicket installieren und einrichten wollen. Hiezu öffnen Sie IIS und müssten direkt ein Icon mit der Schrift "PHP Manager" dadrunter finden. Das klicken Sie an mit einem Doppleklick, damit sich das Fenster des PHP Managers öffnet. Jetzt klicken sie auf "Register new PHP version" und geben als Pfad den Weg zu unserem PHP Ordner ("This PC">"Windows(C:)">"PHP">) und wählen die Datei "php-cgi". Diese ist dnvjsdfbvjdsbfvujdbafjugb....(). Anschließend auf "OK" drücken.
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7Bpudqt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OhDS5cT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pmvjFc5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 So sollte das ganze dann ausschauen: 
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iDNpznJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
-Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Sie zurück zur Startseite des Server Managers und klicken sie rechts unter "Manage Server" auf "Restart".
+Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Sie auf der linken Seite zurück zur Startseite des Server Managers und klicken sie rechts unter "Manage Server" auf "Restart".
 </p>
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0GcLTIa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
