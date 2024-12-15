@@ -27,6 +27,9 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Liste der Voraussetzungen</h2>
 
 - Microsoft Azure
