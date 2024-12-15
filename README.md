@@ -123,37 +123,38 @@ Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach d
 was ist iis:anhvjufdbvujsdbfknfovbndfsobnoifdnbad. Um es zu installieren navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren".
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CWYdrUC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/zXpecWn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jJ6r8Lo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 Suchen Sie nach "Internetinformationsdienste" und setzen Sie Häckchen. Drücken sie auf das kleine Plus neben dem Häckchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häckchen. Drücken Sie auf "OK" um die Installation zu starten. CGI steht für Common Gateway Interface und wird gebraucht für:jbiuvbufsdbvhuasogaugbjfvdfbdsf.
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/VqNSU3a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
 Finden tun Sie das IIS uber... So schaut das Icon aus:
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DuEuq2c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xaOwpe0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<hr>
 
 <p>
 Zuletzt installieren wir "rewrite_amd64..." aus dem osTicket-Installation-Folder. (Erklären wofür es gebraucht wird/was es ist:fndfjfsagvjuifsdabuvfjvnbjdfybujfdas)
 </p>
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RACzSvN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <br />
