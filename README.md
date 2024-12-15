@@ -112,7 +112,7 @@ Nun müssen wir uns mit der Virtuellen Maschine verbinden und diese auch bediene
 <img src="https://i.imgur.com/tVsAUjz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem öffnen der Anwendung die öffentliche IP-Addresse Ihrer Virtuellen Maschine eingeben sowie den Benutzername und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen beim Erstellen der Maschine definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer Viruellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD.Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie es leicht finden. Von nun an wird alles innerhalb der Virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! 
+Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem öffnen der Anwendung die öffentliche IP-Addresse Ihrer Virtuellen Maschine eingeben sowie den Benutzername und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen beim Erstellen der Maschine definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer Viruellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie es leicht finden. Wenn Ich in der Zukunft von den osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner mit dem gleichen Namen der nach Der Extraktion entsteht. Von nun an wird alles innerhalb der Virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! 
 </p>
 
 
@@ -120,11 +120,19 @@ Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach d
 <h2>Installation IIS</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+was ist iis:anhvjufdbvujsdbfknfovbndfsobnoifdnbad. Um es zu installieren navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren". Suchen Sie nach "Internetinformationsdienste" und setzen Sie Häckchen. Drücken sie auf das kleine Plus neben dem Häckchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häckchen. CGI steht für Common Gateway Interface und wird gebraucht für:jbiuvbufsdbvhuasogaugbjfvdfbdsf.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
+<p>
+Zuletzt installieren wir "rewrite_amd64..." aus dem osTicket-Installation-Folder. (Erklären wofür es gebraucht wird/was es ist:fndfjfsagvjuifsdabuvfjvnbjdfybujfdas)
+</p>
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
 <br />
 
 
