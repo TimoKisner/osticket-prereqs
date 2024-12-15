@@ -7,6 +7,9 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Verwendete Technologien und Umgebungen</h2>
 
 - Microsoft Azure (Virtuelle Maschinen)
@@ -15,6 +18,9 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Verwendete Betriebssysteme</h2>
 
 - Windows 10</b> (21H2)
@@ -31,6 +37,9 @@ Dieses Tutorial beschreibt die Voraussetzungen und die Installation des Open-Sou
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Installation - Inhaltsangabe</h2>
 Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von osTicket benötigten Komponenten, sowie die Installation von osTicket selbst. Folglich sind die Abschnitte nach den jeweiligen Komponenten gegliedert.
 <br />
@@ -42,9 +51,13 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 - Installation MySQL
 - Einrichtung osTicket
 - Korrekturen (WICHTIG!!)
+- Letzten Anmerkungen
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h1>Installation - Schritt für Schritt</h1>
 <br />
 
@@ -116,6 +129,9 @@ Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach d
 </p>
 
 
+
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <!--NEW SECTION -->
 <h2>Installation IIS</h2>
 
@@ -161,6 +177,8 @@ Zuletzt installieren wir "rewrite_amd64..." aus dem osTicket-Installation-Folder
 
 
 
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <!--NEW SECTION -->
 <h2>Installation PHP</h2>
 
@@ -230,18 +248,78 @@ Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Si
 
 
 <!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Installation MySQL</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+osTicket-Installation-Files Ordner mysql-5.5... installiern, weil das ist.......(). Wichtig: für Setup Type=Typical. Den Rest gleich lassen.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/TMesfcO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/VtwS6tV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Am Ende den wizard starten.
+<p/>
+<p>
+<img src="https://i.imgur.com/xPLUnlR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Wähle "standard Configuration", den Rest unberührt lassen und sich das eingegebene Passwort merken[stell sicher: brauchen wir das für später?? oder ist das einfach nur nen backup passwort was für die Anleitung irrelevant ist??]. Einfach "Next" drücken bis man "Execute" erreicht. Das drücken, danach auf "Finish".
+<p/>
+<p>
+<img src="https://i.imgur.com/6eHyza0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Nächster Schritt, die Installation von "HeidiSQL..Setup" im osT-Install-Files Ordner. HeidiSQL ist .......sdfgbdsfghbsdfgh....(). Drücke "Next" durch bis du "Finish erreichst und achte bevor du darauf klickst, dass das häckchen bei "Launch HeidiSQL" gesetzt ist.
+<p/>
+<p>
+<img src="https://i.imgur.com/3VYxQzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Wenn sich HeidiSQL geöffnet hat, drücke auf "Skip"
+<p/>
+<p>
+<img src="https://i.imgur.com/1WXSdK0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Der letzte Schritt für diesen Abschnitt der Anleitung behandelt das Erstellen einer neuen Datenbank, welche wir später mit unserem osTicket verbinden. Dafür rechtklicken wir auf die linke Spalte und drücken auf "New session". Ändern brauchen wir nichts, lediglich ein User und ein Passwort müssen wir uns überlegen. Beides brauchen wir später, also merke es dir oder schreibst dir auf. Drücke danach auf "Open" unten rechts.
+<p/>
+<p>
+<img src="https://i.imgur.com/hS4oNDN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<img src="https://i.imgur.com/cBDrNKd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+Jetzt erstellen wir die Datenbank innerhalb der gerade erstellten Session und benennen sie osTicket. Rechtklicken Sie die Session, dann drücken Sie auf "Create new" und klicken auf "Database". Nachdem Sie den Namen "osTicket" eingegeben haben drücken Sie auf "OK".
+<p/>
+<p>
+<img src="https://i.imgur.com/3wXGQVR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+
+<p>
+So sollte das ganze dann aussehen:
+<p/>
+<p>
+<img src="https://i.imgur.com/40RThgk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 
+
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <!--NEW SECTION -->
 <h2>Einrichtung osTicket</h2>
 
@@ -256,7 +334,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 
 <!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
 <h2>Korrekturen</h2>
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+
+
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<!--NEW SECTION -->
+<h2>Letzten Anmerkungen</h2>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
