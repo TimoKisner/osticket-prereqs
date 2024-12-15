@@ -120,7 +120,7 @@ Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach d
 <h2>Installation IIS</h2>
 
 <p>
-was ist iis:anhvjufdbvujsdbfknfovbndfsobnoifdnbad. Um es zu installieren navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren". Suchen Sie nach "Internetinformationsdienste" und setzen Sie Häckchen. Drücken sie auf das kleine Plus neben dem Häckchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häckchen. CGI steht für Common Gateway Interface und wird gebraucht für:jbiuvbufsdbvhuasogaugbjfvdfbdsf.
+was ist iis:anhvjufdbvujsdbfknfovbndfsobnoifdnbad. Um es zu installieren navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren". Suchen Sie nach "Internetinformationsdienste" und setzen Sie Häckchen. Drücken sie auf das kleine Plus neben dem Häckchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häckchen. Drücken Sie auf "OK" um die Installation zu starten. CGI steht für Common Gateway Interface und wird gebraucht für:jbiuvbufsdbvhuasogaugbjfvdfbdsf.
 </p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
