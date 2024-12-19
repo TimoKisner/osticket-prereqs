@@ -429,5 +429,13 @@ Zu guter letzt löschen wir den Ordner "setup" innerhalb unseres "wwwroot">"osTi
 <img src="https://i.imgur.com/lghZBhK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
-<br />
+
+
+
+
+
+
+<p>
+AUSBLICK AUF MÖGLICHE KONFIGURATION/WEITERE EINRICHTUNG
+</p>
 
