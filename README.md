@@ -258,7 +258,7 @@ Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Si
 <h2>Installation MySQL</h2>
 
 <p>
-Nun öffnen wir den osTicket-Installation-Files Ordner und installieren die Datei "mysql-5.5.62-win32". Diese enthält die Installationsdateien für MySQL Version 5.5.62, eine relationale Open-Source-Datenbank, die häufig für die Speicherung und Verwaltung von Daten in Webanwendungen verwendet wird. In unserem Fall stellt es für osTicket eine Datenbank bereit, in der Benutzerdaten, Tickets und andere Anwendungsdaten gespeichert werden.. Wichtig: beim Fenster für das Setup wählen wir als "Type" "Tipical" aus. Den Rest gleich lassen und am Ende den wizard starten.
+Nun öffnen wir den osTicket-Installation-Files Ordner und installieren die Datei "mysql-5.5.62-win32". Diese enthält die Installationsdateien für MySQL Version 5.5.62, eine relationale Open-Source-Datenbank, die häufig für die Speicherung und Verwaltung von Daten in Webanwendungen verwendet wird. In unserem Fall stellt es für osTicket eine Datenbank bereit, in der Benutzerdaten, Tickets und andere Anwendungsdaten gespeichert werden. Wichtig: beim Fenster für das Setup wählen wir als "Type" "Typical" aus. Den Rest gleich lassen und am Ende den Wizard starten.
 </p>
 <p>
 <img src="https://i.imgur.com/TMesfcO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -278,7 +278,7 @@ Wähle "standard Configuration" und lass den Rest unberührt. Einfach "Next" dr�
 </p>
 
 <p>
-Nächster Schritt, die Installation von "HeidiSQL_12.3.0.6589_Setup" im osTicket-Installation-Files Ordner. Diese enthält die Installationsdateien für HeidiSQL, ein grafisches Verwaltungswerkzeug für relationale Datenbanken wie MySQL. Mit HeidiSQL können wir Datenbanken bequem erstellen und verwalten, ohne dass dafür eine Kommandozeile (Powershell) nötig ist. Drücke "Next" durch bis hin zu "Finish". Achte bevor du darauf klickst, dass das häckchen bei "Launch HeidiSQL" gesetzt ist. Wenn sich HeidiSQL geöffnet hat, drücke auf "Skip".
+Nächster Schritt, die Installation von "HeidiSQL_12.3.0.6589_Setup" im osTicket-Installation-Files Ordner. Diese enthält die Installationsdateien für HeidiSQL, ein grafisches Verwaltungswerkzeug für relationale Datenbanken wie MySQL. Mit HeidiSQL können wir Datenbanken bequem erstellen und verwalten, ohne dass dafür eine Kommandozeile (PowerShell) nötig ist. Drücke "Next" durch bis hin zu "Finish". Achte bevor du darauf klickst, dass das Häkchen bei "Launch HeidiSQL" gesetzt ist. Wenn sich HeidiSQL geöffnet hat, drücke auf "Skip".
 <p/>
 <p>
 <img src="https://i.imgur.com/3VYxQzk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -288,7 +288,7 @@ Nächster Schritt, die Installation von "HeidiSQL_12.3.0.6589_Setup" im osTicket
 </p>
 
 <p>
-Der letzte Schritt für diesen Abschnitt der Anleitung behandelt das Erstellen einer neuen Datenbank, welche wir später mit unserem osTicket verbinden. Dafür rechtklicken wir auf die linke Spalte und drücken auf "New session". Ändern brauchen wir nichts, lediglich ein User und ein Passwort müssen wir uns überlegen. Beides brauchen wir später zum Verbinden mit osTicket, also merken oder aufschreiben. Drücken Sie danach auf "Open".
+Der letzte Schritt für diesen Abschnitt der Anleitung behandelt das Erstellen einer neuen Datenbank, welche wir später mit unserem osTicket verbinden. Dafür Rechtsklicken wir auf die linke Spalte und drücken auf "New session". Ändern brauchen wir nichts, lediglich ein User und ein Passwort müssen wir uns überlegen. Beides brauchen wir später zum Verbinden mit osTicket, also merken oder aufschreiben. Drücken Sie danach auf "Open".
 <p/>
 <p>
 <img src="https://i.imgur.com/hS4oNDN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
