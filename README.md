@@ -335,21 +335,21 @@ Danach kopieren wir den Ordner "upload" in dem gerade extrahiertem Ordner "osTic
 </p>
 
 <p>
-Nun benennen Wir den "upload" Ordner in dem "wwwroot" Ordner in "osTicket". Das dient der klaren Identifizierung und sinnvollen Namensgebung. Wie vorhin angedeutet befindet sich dieser gerade umbenannter Ordner "osTicket" in dem Hauptverzeichnis für öffentlich zugängliche Webseiten (google, wikipedia, youtube, etc) innerhalb unseres Webservers (IIS). Heißt unser "osTicket"-Ordner repräsentiert die Webseite, die durch die beinhaltenten Dateien erstellt wird, sprich unsere osTicket-Webseite.
+Nun benennen wir den "upload" Ordner in dem "wwwroot" Ordner in "osTicket". Das dient der klaren Identifizierung und sinnvollen Namensgebung. Wie vorhin angedeutet befindet sich dieser gerade umbenannter Ordner "osTicket" in dem Hauptverzeichnis für öffentlich zugängliche Webseiten (Google, Wikipedia, YouTube, etc.) innerhalb unseres Webservers (IIS). Heißt unser "osTicket"-Ordner repräsentiert die Webseite, die durch die beinhaltenden Dateien erstellt wird, sprich unsere osTicket-Webseite.
 </p>
 <p>
 <img src="https://i.imgur.com/8B2jeQG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
-Endlich können wir osTicket im Browser aufrufen und beginnen, nach unseren Wünschen eine Helpdesk-Struktur aufzubauen. Öffnen Sie IIS und starten sie den Server neu (rechts auf "Restart" klicken). Dann klappen Sie links den Server auf bis Sie einen Ordner namens "osTicket" sehen. klicken Sie in an, sodass der Ordner blau markiert ist und drücken Sie auf der rechten Seite auf "Browse *:80(http)".
+Endlich können wir osTicket im Browser aufrufen und beginnen, nach unseren Wünschen eine Helpdesk-Struktur aufzubauen. Öffnen Sie IIS und starten Sie den Server neu (rechts auf "Restart" klicken). Dann klappen Sie links den Server auf bis Sie einen Ordner namens "osTicket" sehen. Klicken Sie in an, sodass der Ordner blau markiert ist und drücken Sie auf der rechten Seite auf "Browse *:80(http)".
 </p>
 <p>
 <img src="https://i.imgur.com/SUqaWKw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
-Falls sich bei Ihnen nun ein Fenster mit dem Titel "osTicket Installer" öffnet, haben Sie bis jetzt alles richtig gemacht. Jetzt müssen wir nur noch die Schritte erledigen, die uns die Seite vorgibt und fertig sind wir. Der erste dieser Schritte besteht darin, empfohlene Erweiterungen für eine besser Erfahrung im Umgang mit der Anwendung zu aktivieren. Hierzu öffnen wir erneut den PHP Manager in IIS (s.Installation PHP), öffnen den "PHP Extension" Ordner und aktivieren die Erweiterungen "PHP IMAP Extension" und "Intl Extension". Beide besitzen auf der osTicket Installer Website ein rotes Kreuz links neben sich. Hierzu rechtklicken Sie in IIS in den PHP Extensions auf die jeweiligen Erweiterungen und drücken auf "Enable". Diese Erweiterungen lassen sich auch im Nachhinein konfigurieren.
+Falls sich bei Ihnen nun ein Fenster mit dem Titel "osTicket Installer" öffnet, haben Sie bis jetzt alles richtig gemacht. Jetzt müssen wir nur noch die Schritte erledigen, die uns die Seite vorgibt und fertig sind wir. Der erste dieser Schritte besteht darin, empfohlene Erweiterungen für eine besser Erfahrung im Umgang mit der Anwendung zu aktivieren. Hierzu öffnen wir erneut den PHP Manager in IIS (s.Installation PHP), öffnen den "PHP Extension" Ordner und aktivieren die Erweiterungen "PHP IMAP Extension" und "Intl Extension". Beide besitzen auf der osTicket Installer Website ein rotes Kreuz links neben sich. Hierzu Rechtklicken Sie in IIS in den PHP Extensions auf die jeweiligen Erweiterungen und drücken auf "Enable". Diese Erweiterungen lassen sich auch im Nachhinein konfigurieren.
 </p>
 <p>
 <img src="https://i.imgur.com/16RIAQ1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -359,7 +359,7 @@ Falls sich bei Ihnen nun ein Fenster mit dem Titel "osTicket Installer" öffnet,
 </p>
 
 <p>
-Laden sie die Webseite neu und beobachten Sie, dass aus den roten Kreuzen grüne Häckchen geworden sind. Falls das eintrifft drücken Sie auf "Continue".
+Laden Sie die Webseite neu und beobachten Sie, dass aus den roten Kreuzen grüne Häkchen geworden sind. Falls das eintrifft drücken Sie auf "Continue".
 </p>
 <p>
 <img src="https://i.imgur.com/chW2r2R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -373,7 +373,7 @@ Der nächste Schritt ist, die Datei "ost-sampleconfig.php" in "ost-config.php" u
 </p>
 
 <p>
-Daruber Hinaus müssen wir die Berechtigungen für diese Datei ändern. Hierzu rechtsklicken Sie auf die Datei, drücken auf "Properties", oben auf "Security", unten auf "Advanced", links unten auf "Disable inheritance", dann auf "Remove all inherited permissions from this object". Jetzt fügen wir eine eigene Berechtigung hinzu und geben dieser volle Kontrolle über die Datei. Hierzu klicken Sie unten links auf "Add", oben auf "Select a principal" und dann geben Sie "Everyone" in das Feld (s. Bild) ein und drücken "OK". Vergessen Sie nicht die Box "Full Control" (s. Bild) mit einem Häckchen zu versetzen. Drücken Sie erneut auf "OK", dann "Apply" und  wieder (zweimal) auf "OK". Gehen Sie zurück auf die Webseite und drücken Sie auf "Continue". Die Erklärung für das alles kommt im nächsten Kapitel.
+Darüber hinaus müssen wir die Berechtigungen für diese Datei ändern. Hierzu Rechtsklicken Sie auf die Datei, drücken auf "Properties", oben auf "Security", unten auf "Advanced", links unten auf "Disable inheritance", dann auf "Remove all inherited permissions from this object". Jetzt fügen wir eine eigene Berechtigung hinzu und geben dieser volle Kontrolle über die Datei. Hierzu klicken Sie unten links auf "Add", oben auf "Select a principal" und dann geben Sie "Everyone" in das Feld (s. Bild) ein und drücken "OK". Vergessen Sie nicht die Box "Full Control" (s. Bild) mit einem Häkchen zu versetzen. Drücken Sie erneut auf "OK", dann "Apply" und wieder (zweimal) auf "OK". Gehen Sie zurück auf die Webseite und drücken Sie auf "Continue". Die Erklärung für das alles kommt im nächsten Kapitel.
 </p>
 <p>
 <img src="https://i.imgur.com/lnV2va0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -383,17 +383,17 @@ Daruber Hinaus müssen wir die Berechtigungen für diese Datei ändern. Hierzu r
 </p>
 
 <p>
-Jetzt müssen Sie nur noch alles auf der Seite ausfüllen und anschließend auf "Install Now" drücken. Bei den "Database Settings" müssen sie sich an den Anletungsteil "Installation MySQL" zurückerinnern. Dort haben wir innerhalb einer Session eine Datenbank namens "osTicket" angelenkt und für diese Session einen User und Password eingegeben. Diese drei Daten geben Sie hierfür ein.
+Jetzt müssen Sie nur noch alles auf der Seite ausfüllen und anschließend auf "Install Now" drücken. Bei den "Database Settings" müssen sie sich an den Anleitungsteil "Installation MySQL" zurückerinnern. Dort haben wir innerhalb einer Session eine Datenbank namens "osTicket" angelegt und für diese Session einen User und Password eingegeben. Diese drei Daten geben Sie hierfür ein.
 </p>
 <p>
-Auf dieser Seite sollten sie Anschließend landen, wenn alles gelaufen ist wie es soll:
+Auf dieser Seite sollten sie anschließend landen, wenn alles gelaufen ist wie es soll:
 </p>
 <p>
 <img src="https://i.imgur.com/iUqlX6B.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <p>
-Geschafft! osTicket ist erfolgreich installiert. Nun können Sie über die unten aufgelisteten URLs jeweils verschiedene Schnittstellen Ihres Helpdesks erreichen und herum experimentieren.
+Geschafft! osTicket ist erfolgreich installiert. Nun können Sie über die unten aufgelisteten URLs jeweils verschiedene Schnittstellen Ihres Helpdesks erreichen und herumexperimentieren.
 </p>
 <p>
 <img src="https://i.imgur.com/zJ6Q9sL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -408,7 +408,7 @@ Geschafft! osTicket ist erfolgreich installiert. Nun können Sie über die unten
 <h2>Korrekturen</h2>
 
 <p>
-Im Verlaufe der Anleitung haben wir im Kapitel "Installation osTicket" die Berechtigungen für die Datei "ost-config.php" geändert, sodass jeder vollen Zugriff über diese hat und haben den Namen der Datei geändert. Da stellt sich die Frage, warum? Was spiegelt diese Datei wieder? Und warum ändern wir den Namen nicht wieder zu ost-sampleconfig (ja, der Name bleibt)? Die Datei "ost-sampleconfig" ist die Konfigurationsdatei, die osTicket während der Installation verwendet um die individuellen Einstellungen wie Datenbankverbindungen zu speichern. Das Umbennen ist notwendig, da osTicket als Konfigurationsdatei nur nach einer Datei mit dem Namen "ost-config.php" Ausschau hält und akzeptiert. Dem zufolge bleibt der Name bei ost-config.php und heißt zu Beginn ost-sample-config, da es sich zu Beginn um eine nicht konfigurierte, standartisierte Datei handelt, die noch zu konfigurieren gilt. Ebenfalls der Grund für das Ändern der Sicherheitsregeln geht aus diesem Hintergrund hervor. Damit osTicket Zugriff hat auf die Einstellungen und Konfigurationen hat, müssen wir die Sicherheitsregeln ändern. Im Gegensatz zum Namen machen wir diesen Schritt aber rückgängig, da wir momentan jedem vollen Zugriff gewähren, sodass es auch jedem möglich ist an der Datei rumzubasteln. Finden Sie die Datei innerhalb des "include" Ordners (s. Bild für Pfad), rechtklicken Sie auf die Datei und drücken Sie erneut auf "Properties" und oben auf "Security". Wählen Sie die Gruppe "Everyone" aus und drücken Sie auf "Edit". Nehmen Sie überall die Häckchen weg bis auf das Häckchen für das Feld "Read". Anschließend drücken Sie auf "Apply", "OK" und nochmal "OK". Nun kann die Datei von jedem eingesehen, aber nicht verändert werden.
+Im Verlaufe der Anleitung haben wir im Kapitel "Installation osTicket" die Berechtigungen für die Datei "ost-config.php" geändert, sodass jeder vollen Zugriff über diese hat und haben den Namen der Datei geändert. Da stellt sich die Frage, warum? Was spiegelt diese Datei wider? Und warum ändern wir den Namen nicht wieder zu ost-sampleconfig (ja, der Name bleibt)? Die Datei "ost-sampleconfig" ist die Konfigurationsdatei, die osTicket während der Installation verwendet, um die individuellen Einstellungen wie Datenbankverbindungen zu speichern. Das Umbenennen ist notwendig, da osTicket als Konfigurationsdatei nur nach einer Datei mit dem Namen "ost-config.php" Ausschau hält und akzeptiert. Dem zufolge bleibt der Name bei ost-config.php und heißt zu Beginn ost-sampleconfig, da es sich zu Beginn um eine nicht konfigurierte, standardisierte Datei handelt, die noch zu konfigurieren gilt. Ebenfalls der Grund für das Ändern der Sicherheitsregeln geht aus diesem Hintergrund hervor. Damit osTicket Zugriff hat auf die Einstellungen und Konfigurationen hat, müssen wir die Sicherheitsregeln ändern. Im Gegensatz zum Namen machen wir diesen Schritt aber rückgängig, da wir momentan jedem vollen Zugriff gewähren, sodass es auch jedem möglich ist an der Datei herumzubasteln. Finden Sie die Datei innerhalb des "include" Ordners (s. Bild für Pfad), Rechtklicken Sie auf die Datei und drücken Sie erneut auf "Properties" und oben auf "Security". Wählen Sie die Gruppe "Everyone" aus und drücken Sie auf "Edit". Nehmen Sie überall die Häkchen weg bis auf das Häkchen für das Feld "Read". Anschließend drücken Sie auf "Apply", "OK" und nochmal "OK". Nun kann die Datei von jedem eingesehen, aber nicht verändert werden.
 </p>
 <p>
 <img src="https://i.imgur.com/9dWewTW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -418,7 +418,7 @@ Im Verlaufe der Anleitung haben wir im Kapitel "Installation osTicket" die Berec
 </p>
 
 <p>
-Zu guter letzt löschen wir den Ordner "setup" innerhalb unseres "wwwroot">"osTicket" Ordners. Nach der Installation von osTicket wird dieser nicht mehr benötigt und stellt ein potenzielles Sicherheitsrisiko dar, da er den Zugriff auf Installationsskripte ermöglicht. Durch das Entfernen des Ordners wird verhindert, dass unbefugte Personen Änderungen an der Installation vornehmen oder das System erneut einrichten können, konträr zu unseren Vorstellungen. Et voila! Sie haben es geschafft! Viel Spaß mit Ihrem eigenen Ticketsystem.
+Zu guter Letzt löschen wir den Ordner "setup" innerhalb unseres "wwwroot">"osTicket" Ordners. Nach der Installation von osTicket wird dieser nicht mehr benötigt und stellt ein potenzielles Sicherheitsrisiko dar, da er den Zugriff auf Installationsskripte ermöglicht. Durch das Entfernen des Ordners wird verhindert, dass unbefugte Personen Änderungen an der Installation vornehmen oder das System erneut einrichten können, konträr zu unseren Vorstellungen. Et voilà! Sie haben es geschafft!
 </p>
 <p>
 <img src="https://i.imgur.com/lghZBhK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
