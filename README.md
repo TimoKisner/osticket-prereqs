@@ -141,7 +141,7 @@ Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach d
 <h2>Installation IIS</h2>
 
 <p>
-IIS (Internet Information Services) ist ein Webserver von Microsoft, der es ermöglicht, Webseiten und Webanwendungen bereitzustellen und zu hosten. Es dient als Plattform zur Verwaltung von Webdiensten und unterstützt verschiedene Protokolle wie HTTP, HTTPS und FTP. Um es zu installieren navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren".
+IIS (Internet Information Services) ist ein Webserver von Microsoft, der es ermöglicht, Webseiten und Webanwendungen bereitzustellen und zu hosten. Es dient als Plattform zur Verwaltung von Webdiensten und unterstützt verschiedene Protokolle wie HTTP, HTTPS und FTP. Um es zu installieren, navigieren wir innerhalb der Systemsteuerung (/Control Panel) zu Programmen, unter "Programme und Features" auf "Programm deinstallieren" und zuletzt auf der linken Seite auf "Windows-Features aktivieren oder deaktivieren".
 </p>
 <p>
 <img src="https://i.imgur.com/CWYdrUC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -154,7 +154,7 @@ IIS (Internet Information Services) ist ein Webserver von Microsoft, der es erm�
 </p>
 
 <p>
-Suchen Sie nach "Internetinformationsdienste" und setzen Sie das Häckchen. Drücken sie auf das kleine Plus neben dem Häckchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häckchen. Drücken Sie auf "OK" um die Installation zu starten. CGI steht für Common Gateway Interface und ist eine Schnittstelle, die es einem Webserver ermöglicht, mit externen Programmen oder Skripten zu kommunizieren, um dynamische Inhalte zu erstellen. Es wird häufig verwendet, um serverseitige Skripte wie PHP oder Perl auszuführen, die zur Verarbeitung von Benutzeranfragen oder zur Interaktion mit einer Datenbank erforderlich sind. In unserem Fall benötigen wir CGI, um sicherzustellen, dass osTicket seine serverseitigen Skripte korrekt ausführen kann und die Webanwendung reibungslos funktioniert.
+Suchen Sie nach "Internetinformationsdienste" und setzen Sie das Häkchen. Drücken Sie auf das kleine Plus neben dem Häkchen, das erneut bei "WWW-Dienste", erneut bei "Anwendungsentwicklungsfeatures" und suchen Sie nach "CGI" und setzen Sie auch hier ein Häkchen. Drücken Sie auf "OK" um die Installation zu starten. CGI steht für Common Gateway Interface und ist eine Schnittstelle, die es einem Webserver ermöglicht, mit externen Programmen oder Skripten zu kommunizieren, um dynamische Inhalte zu erstellen. Es wird häufig verwendet, um serverseitige Skripte wie PHP oder Perl auszuführen, die zur Verarbeitung von Benutzeranfragen oder zur Interaktion mit einer Datenbank erforderlich sind. In unserem Fall benötigen wir CGI, um sicherzustellen, dass osTicket seine serverseitigen Skripte korrekt ausführen kann und die Webanwendung reibungslos funktioniert.
 </p>
 <p>
 <img src="https://i.imgur.com/VqNSU3a.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -174,7 +174,6 @@ Finden tun Sie das IIS über die Suchleiste unten links. So schaut das Icon aus:
 
 <p>
 Zuletzt installieren wir "rewrite_amd64_en-US" aus dem osTicket-Installation-Folder. Diese Datei installiert das URL Rewrite-Modul für IIS, das es ermöglicht, URLs flexibel umzuschreiben und weiterzuleiten. Dieses Modul ist essenziell, um benutzerfreundliche, suchmaschinenoptimierte URLs zu erstellen oder Anfragen gezielt an bestimmte Skripte oder Seiten weiterzuleiten. Im Zusammenhang mit osTicket sorgt das Rewrite-Modul dafür, dass die URLs korrekt verarbeitet werden und die Webanwendung reibungslos funktioniert, indem es die gewünschten Endpunkte für Benutzer und Server erreichbar macht.
-
 </p>
 <p>
 <img src="https://i.imgur.com/RACzSvN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -199,7 +198,7 @@ Als erstes erstellen wir einen Ordner namens "PHP" auf unserem lokalen Datenträ
 </p>
 
 <p>
-Daraufhin öffnen wir den osTicket-Installation-Files Ordner und installieren alles was PHP benötigt um flussig innerhalb des IIS zu operieren. Anfangen tun wir mit "VC_redist.x86". Die Datei „VC_redist.x86“ installiert die "Microsoft Visual C++ Redistributable", eine Sammlung von Laufzeitbibliotheken, die von Anwendungen benötigt werden, die mit Visual C++ entwickelt wurden. PHP und viele seiner Erweiterungen sind auf diese Laufzeitbibliotheken angewiesen, um korrekt zu funktionieren. In Bezug auf  osTicket ist die Installation dieser Datei notwendig, da sie sicherstellt, dass PHP und alle dazugehörigen Komponenten ordnungsgemäß ausgeführt werden können.
+Daraufhin öffnen wir den osTicket-Installation-Files Ordner und installieren alles, was PHP benötigt, um flüssig innerhalb des IIS zu operieren. Anfangen tun wir mit "VC_redist.x86". Die Datei „VC_redist.x86“ installiert die "Microsoft Visual C++ Redistributable", eine Sammlung von Laufzeitbibliotheken, die von Anwendungen benötigt werden, die mit Visual C++ entwickelt wurden. PHP und viele seiner Erweiterungen sind auf diese Laufzeitbibliotheken angewiesen, um korrekt zu funktionieren. In Bezug auf osTicket ist die Installation dieser Datei notwendig, da sie sicherstellt, dass PHP und alle dazugehörigen Komponenten ordnungsgemäß ausgeführt werden können.
 </p>
 <p>
 <img src="https://i.imgur.com/6t1JdFr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -213,7 +212,7 @@ Jetzt kommt die Datei "PHPManagerForIIS_V1.5.0". Wie es im Namen schon steckt hi
 </p>
 
 <p>
-Jetzt zur letzten, für PHP relevanten, Datei innerhalb des Installations-Ordners. Die Rede ist von "php-7.3.8-nts-Win32-VC15-x86". Darin befindet sich die ausführbaren Dateien und Kernkomponenten von PHP in Version 7.3.8, die für die Ausführung von PHP-Skripten benötigt werden. Daruber hinaus handelt es sich dabei um eine spezielle Version von PHP, da sie ohne Thread-Safety (NTS) konfiguriert ist, was für die Nutzung in Serverumgebungen wie IIS optimiert ist, da IIS diesen Teil selbst verantwortet. Wir extrahieren den Ordner in unseren zuvor erstellten "PHP" Ordner (s. Beginn Installation PHP).
+Jetzt zur letzten, für PHP relevanten, Datei innerhalb des Installations-Ordners. Die Rede ist von "php-7.3.8-nts-Win32-VC15-x86". Darin befindet sich die ausführbaren Dateien und Kernkomponenten von PHP in Version 7.3.8, die für die Ausführung von PHP-Skripten benötigt werden. Darüber hinaus handelt es sich dabei um eine spezielle Version von PHP, da sie ohne Thread-Safety (NTS) konfiguriert ist, was für die Nutzung in Serverumgebungen wie IIS optimiert ist, da IIS diesen Teil selbst verantwortet. Wir extrahieren den Ordner in unseren zuvor erstellten "PHP" Ordner (s. Beginn Installation PHP).
 </p>
 <p>
 <img src="https://i.imgur.com/JmCwQke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -224,7 +223,7 @@ Jetzt zur letzten, für PHP relevanten, Datei innerhalb des Installations-Ordner
 <hr>
 
 <p>
-Fast geschafft! Für die letzten zwei Schritte müssen wir in IIS gehen und unsere PHP Version, die wir zuvor in den Ordner "PHP" extrahiert haben, registrieren. Sonst kann das IIS keinen Gebrauch davon machen wenn wir später osTicket installieren und einrichten wollen. Hiezu öffnen Sie IIS und müssten direkt ein Icon mit der Schrift "PHP Manager" dadrunter finden. Das klicken Sie an mit einem Doppleklick, damit sich das Fenster des PHP Managers öffnet. Jetzt klicken sie auf "Register new PHP version" und geben als Pfad den Weg zu unserem PHP Ordner ("This PC">"Windows(C:)">"PHP">) und wählen die Datei "php-cgi". Die „php-cgi“-Datei ermöglicht es unserem IIS-Server, PHP-Skripte mithilfe von CGI auszuführen. Sie sorgt dafür, dass PHP korrekt verarbeitet wird und die Webanwendung wie osTicket funktioniert. Stellen Sie es sich vor wie die Straße auf der die PHP-Skripte zur Schnittstelle des CGI fahren.
+Fast geschafft! Für die letzten zwei Schritte müssen wir in IIS gehen und unsere PHP Version, die wir zuvor in den Ordner "PHP" extrahiert haben, registrieren. Sonst kann das IIS keinen Gebrauch davon machen, wenn wir später osTicket installieren und einrichten wollen. Hierzu öffnen Sie IIS und müssten direkt ein Icon mit der Schrift "PHP Manager" darunter finden. Das klicken Sie an mit einem Doppelklick, damit sich das Fenster des PHP Managers öffnet. Jetzt klicken sie auf "Register new PHP version" und geben als Pfad den Weg zu unserem PHP Ordner ("This PC">"Windows(C:)">"PHP">) und wählen die Datei "php-cgi". Die „php-cgi“-Datei ermöglicht es unserem IIS-Server, PHP-Skripte mithilfe von CGI auszuführen. Sie sorgt dafür, dass PHP korrekt verarbeitet wird und die Webanwendung wie osTicket funktioniert. Stellen Sie es sich vor wie die Straße auf der die PHP-Skripte zur Schnittstelle des CGI fahren.
 </p>
 <p>
 <img src="https://i.imgur.com/7Bpudqt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -244,7 +243,7 @@ So sollte das ganze dann ausschauen:
 </p>
 
 <p>
-Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Sie auf der linken Seite zurück zur Startseite des Server Managers und klicken sie rechts unter "Manage Server" auf "Restart".
+Bevor wir uns um die Datenbank kümmern, starten wir den Webserver neu. Gehen Sie auf der linken Seite zurück zur Startseite des Server-Managers und klicken sie rechts unter "Manage Server" auf "Restart".
 </p>
 <p>
 <img src="https://i.imgur.com/0GcLTIa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
