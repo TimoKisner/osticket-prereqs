@@ -7,7 +7,7 @@ Dieses Tutorial beschreibt die Voraussetzungen und führt Sie durch die Installa
 <br />
 
 
-
+Klicke hier: [Dokumentation](https://example.com)
 <!--NEW SECTION -->
 <!--NEW SECTION -->
 <!--NEW SECTION -->
@@ -130,9 +130,9 @@ Nun müssen wir uns mit der virtuellen Maschine verbinden und diese auch bediene
 </p>
 
 <p>
-Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem Öffnen der Anwendung die öffentliche IP-Adresse Ihrer virtuellen Maschine eingeben, sowie den Benutzernamen und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen, beim Erstellen der Maschine, definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer virtuellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie ihn leicht finden. Wenn ich in der Zukunft von einem osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner, mit dem gleichen Namen, der nach der Extraktion entsteht. Von nun an wird alles innerhalb der virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! gggggggggggggggggggggggggggggg
+Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem Öffnen der Anwendung die öffentliche IP-Adresse Ihrer virtuellen Maschine eingeben, sowie den Benutzernamen und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen, beim Erstellen der Maschine, definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer virtuellen Maschine: [I'm a reference-style link][osTicket-Inst-Ordner] bbbb [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie ihn leicht finden. Wenn ich in der Zukunft von einem osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner, mit dem gleichen Namen, der nach der Extraktion entsteht. Von nun an wird alles innerhalb der virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! gggggggggggggggggggggggggggggg ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg
 </p>
-
+[osTicket-Inst-Ordner](https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD)
 
 
 <!--NEW SECTION -->
