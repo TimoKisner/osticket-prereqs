@@ -86,46 +86,43 @@ Hierbei musst du auf folgende Dinge Acht geben. Alle folgenden Einstellungen bef
 - das Verwenden der zuvor erstellten Ressourcengruppe
 - die Virtuellen Maschine taufen (einen Namen geben)
 - bei "Region" eine möglichst nahe wählen (bezieht sich auf den physischen Standort deiner Virtuellen Maschine/Standort des Cloud-Centers in der deine Virtuelle Maschine Erschaffen wird. Daher je näher desto besser, da die Distanz sich später bei der Verbindung mit deinem Computer auf diese auswirken kann
-
 <p>
 <img src="https://i.imgur.com/Ftz495Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 - das "Image" bezeichnet das Betriebssystem der Virtuellen Maschine. Hier wählst du Windows 10 Pro aus.
 - die "Größe" bezeichnet die Rechenleistung der Virtuellen Maschine. Ich wähle die Variante mit 4 vcpus ( 4 virtuelle Central Processing Units), falls Kosten ein Faktor ist, dann kannst du auch die Variante mit 2 vcpus auswählen. Diese reicht vollkommen aus für diese Anleitung.
-
 <p>
 <img src="https://i.imgur.com/ZXwR4iq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 - der Benutzername und das entsprechende Passwort stehen dir frei, hauptsache du vergisst sie nicht. Sie spiegeln die Anmeldedaten des Benutzers des Betriebssystems deiner Virtuellen Maschine. Stell dir den Account deines eigenen Computersvor, den du gerade verwendest diesen Satz zu lesen. Für diesen Account definierst du den Benutzernamen und das entsprechende Passwort. Beides benötigst du um später Zugriff auf die Virtuelle Maschine zu haben.
-
 <p>
 <img src="https://i.imgur.com/YpzCSGI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 - zuletzt setze das Häckchen für das Verfügen einer Windows 10/11-Lizenz
 - den Rest kannst du unberührt lassen und anschließend unten links auf "Überprüfen und erstellen" drücken. Dann nochmal auf "Erstellen".
-
 <p>
 <img src="https://i.imgur.com/jubHI6s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <hr>
+
+<br />
 <p>
 Nun müssen wir uns mit der Virtuellen Maschine verbinden und diese auch bedienen. Hierzu benutzen wir (auf Windows) die Anwendung Remotedesktopverbindung. Falls ihr eigener Computer ein MacOS ist, so müssen Sie eine App im App Store herunterladen namens Microsoft Remote Desktop.
 </p>
-
 <p>
 <img src="https://i.imgur.com/oMyuNh1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <p>
 <img src="https://i.imgur.com/pbC7dIS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <p>
 <img src="https://i.imgur.com/tVsAUjz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+
 <p>
 Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem öffnen der Anwendung die öffentliche IP-Addresse Ihrer Virtuellen Maschine eingeben sowie den Benutzername und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen beim Erstellen der Maschine definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer Viruellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie es leicht finden. Wenn Ich in der Zukunft von den osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner mit dem gleichen Namen der nach Der Extraktion entsteht. Von nun an wird alles innerhalb der Virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! 
 </p>
@@ -174,7 +171,6 @@ Zuletzt installieren wir "rewrite_amd64..." aus dem osTicket-Installation-Folder
 <p>
 <img src="https://i.imgur.com/RACzSvN.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-
 <br />
 
 
