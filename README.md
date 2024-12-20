@@ -69,14 +69,14 @@ Hier ist ein grober Überblick über die Reihenfolge der Installationen, der von
 <h2>Vorbereitungen</h2>
 
 <p>
-Zuerst erstellen wir eine Virtuelle Maschine auf der wir osTicket installieren. Als Cloud-Anbieter benutze ich Microsoft Azure. Der erste Schritt ist es, sich eine Ressourcengruppe zu erstellen. Merke dir den Namen der Ressourcengruppe für den nächsten Schritt, das Erstellen einer Virtuellen Maschine. 
+Zuerst erstellen wir eine virtuelle Maschine, auf der wir osTicket installieren. Als Cloud-Anbieter benutze ich Microsoft Azure. Der erste Schritt ist es, sich eine Ressourcengruppe zu erstellen. Merke dir den Namen der Ressourcengruppe für den nächsten Schritt, das Erstellen einer virtuellen Maschine.
 <p>
-Meine heißt: osTicket-RGroup
+Meine heißt: osTicket-RGroup.
 </p>
 <img src="https://i.imgur.com/sDhYnw1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Im Anschluss erstellen wir eine Virtuelle Maschine (/Virtuellen Computer). 
+Im Anschluss erstellen wir eine virtuelle Maschine (/virtuellen Computer). 
 </p>
 <p>
 <img src="https://i.imgur.com/jdP4nYk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -84,27 +84,31 @@ Im Anschluss erstellen wir eine Virtuelle Maschine (/Virtuellen Computer).
 <p>
 <hr>
 Hierbei musst du auf folgende Dinge Acht geben. Alle folgenden Einstellungen befinden sich auf der ersten Seite, den "Grundeinstellungen":
-  
+
 - Das Verwenden der zuvor erstellten Ressourcengruppe.
-- Die Virtuellen Maschine taufen (einen Namen geben).
-- Bei "Region" eine möglichst nahe wählen (bezieht sich auf den physischen Standort deiner Virtuellen Maschine/Standort des Cloud-Centers in der deine Virtuelle Maschine Erschaffen wird. Daher je näher desto besser, da die Distanz später, bei der Verbindung mit deinem Computer, sich auf diese auswirken kann).
+- Die virtuelle Maschine taufen (einen Namen geben).
+- Bei "Region" eine möglichst nahe wählen (bezieht sich auf den physischen Standort deiner virtuellen Maschine/Standort des Cloud-Centers in der deine virtuelle Maschine Erschaffen wird. Daher je näher, desto besser, da die Distanz später, bei der Verbindung mit deinem Computer, sich auf diese auswirken kann).
+
 <p>
 <img src="https://i.imgur.com/Ftz495Q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-- Das "Image" bezeichnet das Betriebssystem der Virtuellen Maschine. Hier wählst du Windows 10 Pro aus.
-- Die "Größe" bezeichnet die Rechenleistung der Virtuellen Maschine. Ich wähle die Variante mit 4 vcpus ( 4 virtuelle Central Processing Units). Falls Kosten ein Faktor sind, dann kannst du auch die Variante mit 2 vcpus auswählen. Diese reicht vollkommen aus für diese Anleitung.
+- Das "Image" bezeichnet das Betriebssystem der virtuellen Maschine. Hier wählst du Windows 10 Pro aus.
+- Die "Größe" bezeichnet die Rechenleistung der virtuellen Maschine. Ich wähle die Variante mit 4 vcpus (4 virtuelle Central Processing Units). Falls Kosten ein Faktor sind, dann kannst du auch die Variante mit 2 vcpus auswählen. Diese reicht vollkommen aus für diese Anleitung.
+
 <p>
 <img src="https://i.imgur.com/ZXwR4iq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-- der Benutzername und das entsprechende Passwort stehen dir frei, hauptsache du vergisst sie nicht. Sie spiegeln die Anmeldedaten des Benutzers des Betriebssystems deiner Virtuellen Maschine dar. Stell dir den Account deines eigenen Computers vor, den Account den du gerade verwendest um diesen Satz im Browser zu lesen. Für diesen Account definierst du den Benutzernamen und das entsprechende Passwort. Beides benötigst du um später Zugriff auf die Virtuelle Maschine zu haben.
+- Der Benutzername und das entsprechende Passwort stehen dir frei, Hauptsache du vergisst sie nicht. Sie spiegeln die Anmeldedaten des Benutzers des Betriebssystems deiner virtuellen Maschine dar. Stell dir den Account deines eigenen Computers vor, den Account den du gerade verwendest, um diesen Satz im Browser zu lesen. Für diesen Account definierst du den Benutzernamen und das entsprechende Passwort. Beides benötigst du, um später Zugriff auf die virtuelle Maschine zu haben.
+
 <p>
 <img src="https://i.imgur.com/YpzCSGI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-- Zuletzt setze das Häckchen für das Verfügen einer Windows 10/11-Lizenz.
+- Zuletzt setze das Häkchen für das Verfügen einer Windows 10/11-Lizenz.
 - Den Rest kannst du unberührt lassen und anschließend unten links auf "Überprüfen und erstellen" drücken. Dann nochmal auf "Erstellen".
+
 <p>
 <img src="https://i.imgur.com/jubHI6s.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -113,7 +117,7 @@ Hierbei musst du auf folgende Dinge Acht geben. Alle folgenden Einstellungen bef
 
 <br />
 <p>
-Nun müssen wir uns mit der Virtuellen Maschine verbinden und diese auch bedienen. Hierzu benutzen wir (auf Windows) die Anwendung Remotedesktopverbindung. Falls ihr eigener Computer ein MacOS ist, so müssen Sie eine App im App Store herunterladen namens Microsoft Remote Desktop.
+Nun müssen wir uns mit der virtuellen Maschine verbinden und diese auch bedienen. Hierzu benutzen wir (auf Windows) die Anwendung Remotedesktopverbindung. Falls ihr eigener Computer ein macOS ist, so müssen Sie eine App im App Store herunterladen namens Microsoft Remote Desktop.
 </p>
 <p>
 <img src="https://i.imgur.com/oMyuNh1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -126,7 +130,7 @@ Nun müssen wir uns mit der Virtuellen Maschine verbinden und diese auch bediene
 </p>
 
 <p>
-Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem öffnen der Anwendung die öffentliche IP-Addresse Ihrer Virtuellen Maschine eingeben, sowie den Benutzername und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen, beim Erstellen der Maschine, definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer Viruellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie ihn leicht finden. Wenn ich in der Zukunft von einem osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner, mit dem gleichen Namen, der nach der Extraktion entsteht. Von nun an wird alles innerhalb der Virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! gggggggggggggggggggggggggggggg
+Egal ob Remotedesktopverbindung oder Microsoft Desktop Remote müssen Sie nach dem Öffnen der Anwendung die öffentliche IP-Adresse Ihrer virtuellen Maschine eingeben, sowie den Benutzernamen und das Passwort. Die IP-Adresse finden sie in Microsoft Azure dort, wo Sie die Maschine erstellt haben und den Benutzernamen und das Passwort meinen den von Ihnen, beim Erstellen der Maschine, definierten Benutzer und Passwort. Nachdem Sie sich in Ihre Maschine eingeloggt haben, downloaden Sie diesen Ordner innerhalb Ihrer virtuellen Maschine: [osTicket-Installation-Files.zip]: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD. Und wenn Sie schon dabei sind, extrahieren Sie den Ordner an einen Ort wo Sie ihn leicht finden. Wenn ich in der Zukunft von einem osTicket-Installation-Files spreche, dann beziehe ich mich auf den Ordner, mit dem gleichen Namen, der nach der Extraktion entsteht. Von nun an wird alles innerhalb der virtuellen Maschine gemacht. Zusammen mit dieser und dem Ordner steht unserer Installation von osTicket nichts mehr im Weg! gggggggggggggggggggggggggggggg
 </p>
 
 
